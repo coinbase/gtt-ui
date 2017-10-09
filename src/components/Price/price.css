@@ -1,0 +1,30 @@
+.price {
+    text-shadow: 0 0 0;
+}
+
+.price_movement_none {}
+.price_movement_up { color: lawngreen}
+.price_movement_down { color: red }
+
+@keyframes glower1 {
+    from {text-shadow: -1px 1px 20px #b0ffb9, 1px -1px 20px #fff;}
+    to {text-shadow: 0 0 0;}
+}
+
+@keyframes glower2 {
+    from {text-shadow: -1px 1px 20px #ffb6ae, 1px -1px 20px #fff;}
+    to {text-shadow: 0 0 0;}
+}
+
+.glow1 {
+    text-shadow: 0 0 0;
+    animation-name: glower1;
+    animation-duration: 1.5s;
+}
+
+.glow2 {
+    text-shadow: 0 0 0;
+    animation-name: glower2;
+    animation-duration: 1.5s;
+}
+
