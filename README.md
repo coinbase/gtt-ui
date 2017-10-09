@@ -9,6 +9,8 @@ in the way of standalone applications here. However, there is a small demonstrat
 
 ## Gallery
 
+The gallery is viewable on [this projects' github pages](https://coinbase.github.io/gtt-ui/).
+
 To view the gallery locally, run `yarn run storybook` and then open http://localhost:6006
 
 ## Demo
