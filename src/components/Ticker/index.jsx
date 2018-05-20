@@ -1,4 +1,5 @@
 import {Table, TableHeader, TableHeaderColumn, TableBody, TableRow, TableRowColumn} from  'material-ui';
+import PropTypes from 'prop-types';
 import React from 'react';
 import Price from '../Price/index';
 
@@ -41,13 +42,13 @@ const TickerTable = (props) => {
 };
 
 TickerRow.propTypes = {
-    title: React.PropTypes.string,
-    ticker: React.PropTypes.object,
-    quotePrecision: React.PropTypes.number.isRequired,
-    quoteCurrencySymbol: React.PropTypes.string,
-    baseCurrencySymbol: React.PropTypes.string,
-    basePrecision: React.PropTypes.number.isRequired,
-    movement: React.PropTypes.string
+    title: PropTypes.string,
+    ticker: PropTypes.object,
+    quotePrecision: PropTypes.number.isRequired,
+    quoteCurrencySymbol: PropTypes.string,
+    baseCurrencySymbol: PropTypes.string,
+    basePrecision: PropTypes.number.isRequired,
+    movement: PropTypes.string
 };
 
 TickerRow.defaultProps = {
